@@ -2,6 +2,7 @@
 
 $color-0: transparent;
 $color-1: #fff;
+$color-2: #00b3ef;
 
 div, ul, li {outline: 1px red solid;}
 body {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif;}
@@ -11,7 +12,7 @@ body {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif;}
 .width-center-block {width: 1170px; margin: 0 auto;}
 
 #main-menu {
-	width: 100%; min-height: 0;
+	width: 100%; min-height: 0; position: fixed; z-index: 9999;
 	.main-menu-center-block {  background: green;
 		min-height: 45px; padding: 45px 0;
 		.logo {
@@ -21,14 +22,18 @@ body {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif;}
 		}
 		.menu {
 			font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
-			height: 45px; float: right;
+			min-height: 45px; float: right;
 			ul {
 				display: table; padding: 0px 0 0 0; margin: 0;
 				li {
 					display: table-cell; padding-left: 32px;
 					a {
-						text-decoration: none; display: block; height: 30px; border-bottom: 1px $color-0 solid; color: $color-1;
+						text-decoration: none; display: inline-block; height: 30px; border-bottom: 1px $color-0 solid; color: $color-1;
+						-webkit-transition: 300ms;
+						-o-transition: 300ms;
+						transition: 300ms;
 						&:hover {border-bottom: 1px $color-1 solid;}
+						&.active {border-bottom: 1px $color-2 solid;}
 					}
 				}
 			}
