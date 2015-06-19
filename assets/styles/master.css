@@ -1,7 +1,45 @@
-div {
+/* variables */
+div, ul, li {
   outline: 1px red solid; }
 
 body {
   font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif; }
+
+.width-center-block {
+  width: 1170px;
+  margin: 0 auto; }
+
+#main-menu {
+  width: 100%;
+  min-height: 0; }
+  #main-menu .main-menu-center-block {
+    min-height: 45px;
+    padding: 45px 0; }
+    #main-menu .main-menu-center-block .logo {
+      width: 312px;
+      height: 45px;
+      float: left;
+      background: url(../img/svg/logo.svg);
+      background-size: 100% 100%; }
+    #main-menu .main-menu-center-block .menu {
+      font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
+      height: 45px;
+      float: right;
+      background: green; }
+      #main-menu .main-menu-center-block .menu ul {
+        display: table;
+        padding: 0px 0 0 0;
+        margin: 0; }
+        #main-menu .main-menu-center-block .menu ul li {
+          display: table-cell;
+          padding-left: 32px; }
+          #main-menu .main-menu-center-block .menu ul li a {
+            text-decoration: none;
+            display: block;
+            height: 30px;
+            border-bottom: 1px transparent solid;
+            color: #fff; }
+            #main-menu .main-menu-center-block .menu ul li a:hover {
+              border-bottom: 1px #fff solid; }
 
 /*# sourceMappingURL=master.css.map */

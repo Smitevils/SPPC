@@ -1,2 +1,37 @@
-div {outline: 1px red solid;}
+/* variables */
+
+$color-0: transparent;
+$color-1: #fff;
+
+div, ul, li {outline: 1px red solid;}
 body {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif;}
+
+//*************************************************
+
+.width-center-block {width: 1170px; margin: 0 auto;}
+
+#main-menu {
+	width: 100%; min-height: 0;
+	.main-menu-center-block {
+		min-height: 45px; padding: 45px 0;
+		.logo {
+			width: 312px; height: 45px; float: left;
+			background: url(../img/svg/logo.svg);
+			background-size: 100% 100%;
+		}
+		.menu {
+			font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
+			height: 45px; float: right; background: green;
+			ul {
+				display: table; padding: 0px 0 0 0; margin: 0;
+				li {
+					display: table-cell; padding-left: 32px;
+					a {
+						text-decoration: none; display: block; height: 30px; border-bottom: 1px $color-0 solid; color: $color-1;
+						&:hover {border-bottom: 1px $color-1 solid;}
+					}
+				}
+			}
+		}
+	}
+}
