@@ -1,0 +1,13 @@
+#main {
+	width: 100%; min-height: 100%;
+	.main-slider {
+		width: 100%; min-height: 100%; position: absolute;
+		.main-slide {width: 100%; min-height: 100%; position: absolute;}
+		.main-slide-1 {background: url(../img/main-bg-1.jpg) center; background-size: cover;}
+		.main-slide-2 {background: url(../img/main-bg-2.jpg) center top; background-size: cover;}
+		.main-slide-3 {background: url(../img/main-bg-3.jpg) center bottom; background-size: cover;}
+		.main-slide-4 {background: url(../img/main-bg-4.jpg) center top; background-size: cover;}
+		.main-slide-5 {background: url(../img/main-bg-5.jpg) center top; background-size: cover;}
+		.main-slide-cover {background: rgba(0,0,0,0.5);}
+	}
+}
