@@ -1,3 +1,30 @@
+@media screen and (max-width: 1200px) {
+  .width-center-block {
+    width: 960px; } }
+@media screen and (max-width: 1000px) {
+  .width-center-block {
+    width: 760px; } }
+@media screen and (max-width: 800px) {
+  .width-center-block {
+    width: 560px; }
 
+  #main-menu .main-menu-center-block .logo {
+    width: 312px;
+    height: 45px;
+    float: left; }
+  #main-menu .main-menu-center-block .menu {
+    font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
+    height: 45px;
+    float: right; }
+    #main-menu .main-menu-center-block .menu ul {
+      display: table;
+      padding: 0px 0 0 0;
+      margin: 0; }
+      #main-menu .main-menu-center-block .menu ul li {
+        display: table-cell;
+        padding-left: 32px; } }
+@media screen and (max-width: 600px) {
+  .width-center-block {
+    width: 100%; } }
 
 /*# sourceMappingURL=adaptive.css.map */

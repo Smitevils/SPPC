@@ -13,6 +13,7 @@ body {
   width: 100%;
   min-height: 0; }
   #main-menu .main-menu-center-block {
+    background: green;
     min-height: 45px;
     padding: 45px 0; }
     #main-menu .main-menu-center-block .logo {
@@ -24,8 +25,7 @@ body {
     #main-menu .main-menu-center-block .menu {
       font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
       height: 45px;
-      float: right;
-      background: green; }
+      float: right; }
       #main-menu .main-menu-center-block .menu ul {
         display: table;
         padding: 0px 0 0 0;
