@@ -1,1 +1,1 @@
-<?php include_once "assets/head.html" ?>
+<?php include_once "assets/html/head.html" ?>
