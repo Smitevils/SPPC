@@ -87,9 +87,9 @@ img {
 
 /* ╨б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╤В╨░╨▒╨╗╨╕╤З╨╜╤Л╤Е ╨▒╨╗╨╛╨║╨╛╨▓ - 3 ╨▓ ╤А╤П╨┤ */
 .three-in-row-block-wrap {
-  padding: 0 2%; }
+  padding: 0; }
   .three-in-row-block-wrap .three-in-row-block {
-    width: 32%;
+    width: 33.3%;
     height: auto;
     float: left;
     text-align: center; }

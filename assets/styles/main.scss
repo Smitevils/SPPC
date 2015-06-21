@@ -1,7 +1,7 @@
 @import 'variables';
 
 #main {
-	width: 100%; min-height: 100%;
+	width: 100%; min-height: 100%; position: relative;
 	.main-slider {
 		width: 100%; min-height: 100%; position: absolute;
 		.main-slide {width: 100%; min-height: 100%; position: absolute;}
@@ -50,5 +50,10 @@
 	.main-select-block-text {
 		text-align: left; margin: 0 4%;
 		.main-select-block-text-line {width: 60px; border-bottom: 1px $color-1 solid; margin: 16px 0;}
+	}
+	.footer {
+		padding: 20px 0;
+		.footer-text-left {float: left;}
+		.footer-text-right {float: right;}
 	}
 }
