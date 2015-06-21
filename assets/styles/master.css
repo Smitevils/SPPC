@@ -1,5 +1,5 @@
 /* variables */
-div, ul, li, ul, li {
+div, ul, li, ul, li, h1, h2 {
   outline: 1px red solid; }
 
 html, body {
@@ -8,6 +8,23 @@ html, body {
 
 body, a {
   font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif; }
+
+h1, h2, h3, h4, h5, h6, a, p {
+  color: #fff;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, a, p span {
+  font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 36px; }
+
+p {
+  font-size: 16px; }
 
 .width-center-block {
   width: 1170px;

@@ -26,5 +26,15 @@
       background-size: cover; }
     #main .main-slider .main-slide-cover {
       background: rgba(0, 0, 0, 0.5); }
+  #main .main-content {
+    position: relative;
+    z-index: 1;
+    padding-top: 135px; }
+  #main .main-text {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0; }
 
 /*# sourceMappingURL=main.css.map */

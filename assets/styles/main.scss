@@ -10,4 +10,8 @@
 		.main-slide-5 {background: url(../img/main-bg-5.jpg) center top; background-size: cover;}
 		.main-slide-cover {background: rgba(0,0,0,0.5);}
 	}
+	.main-content {position: relative; z-index: 1; padding-top: 135px;}
+	.main-text {
+		width: 400px; height: auto; text-align: center; margin: 0 auto; padding: 20px 0;
+	}
 }
