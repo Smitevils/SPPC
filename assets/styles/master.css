@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, a, p {
   margin: 0;
   padding: 0; }
 
-h1, h2, h3, h4, h5, h6, a, p span {
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, a span, p span {
   font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif; }
 
 h1 {
@@ -25,8 +25,18 @@ h1 {
 h2 {
   font-size: 36px; }
 
+h5 {
+  font-size: 26px; }
+
+h6 {
+  font-size: 18px; }
+
 p {
   font-size: 16px; }
+
+/*╨г╨▒╨╕╤А╨░╨╡╨╝ ╤Б╤В╤А╨░╨╜╨╜╤Л╨╣ ╨╜╨╕╨╢╨╜╨╕╨╣ ╨╛╤В╤Б╤В╤Г╨┐*/
+img {
+  vertical-align: bottom; }
 
 .clear {
   clear: both;
@@ -43,7 +53,7 @@ p {
   z-index: 9999; }
   #main-menu .main-menu-center-block {
     min-height: 45px;
-    padding: 45px 0; }
+    padding: 35px 0; }
     #main-menu .main-menu-center-block .logo {
       width: 312px;
       height: 45px;

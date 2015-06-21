@@ -1,17 +1,23 @@
-/* variables */
-
-$color-0: transparent;
-$color-1: #fff;
-$color-2: #00b3ef;
+@import 'variables';
 
 div, ul, li, ul, li,h1, h2 {outline: 1px red solid;}
 html,body {width: 100%; height: 100%;}
 body,a {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif; color: $color-1;}
 h1,h2,h3,h4,h5,h6,a,p {color: $color-1; margin: 0; padding: 0;}
-h1,h2,h3,h4,h5,h6,a,p span {font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;}
+h1,h2,h3,h4,h5,h6,a,p { 
+	span{
+		font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
+	}
+}
+
 h1 {font-size: 40px;}
 h2 {font-size: 36px;}
+h5 {font-size: 26px;}
+h6 {font-size: 18px;}
 p {font-size: 16px;}
+
+/*Убираем странный нижний отступ*/
+img {vertical-align:bottom;}
 
 .clear {clear: both; outline: 1px blue solid;}
 
@@ -22,7 +28,7 @@ p {font-size: 16px;}
 #main-menu {
 	width: 100%; min-height: 0; position: fixed; z-index: 9999;
 	.main-menu-center-block {
-		min-height: 45px; padding: 45px 0;
+		min-height: 45px; padding: 35px 0;
 		.logo {
 			width: 312px; height: 45px; float: left;
 			background: url(../img/svg/logo.svg);

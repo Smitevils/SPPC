@@ -1,3 +1,4 @@
+/* variables */
 #main {
   width: 100%;
   min-height: 100%; }
@@ -29,10 +30,67 @@
   #main .main-content {
     position: relative;
     z-index: 1;
-    padding-top: 135px; }
+    padding-top: 118px; }
   #main .main-text {
     height: auto;
     text-align: center;
     margin: 0 auto;
     padding: 20px 0;
     overflow: hidden; }
+  #main .main-select-block-photo {
+    width: 88%;
+    padding: 2%;
+    margin: 4%;
+    background: #fff;
+    position: relative; }
+    #main .main-select-block-photo .main-img-1 {
+      width: 96%;
+      height: 242px;
+      padding: 2%;
+      position: relative;
+      background: url(../img/secect-center-1.jpg) center;
+      background-size: 100% 100%; }
+    #main .main-select-block-photo .main-img-wrap img {
+      width: 100%;
+      height: auto;
+      padding: 0; }
+    #main .main-select-block-photo .main-img-cover {
+      width: 91%;
+      height: 89%;
+      margin: 2%;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+      cursor: pointer;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s; }
+      #main .main-select-block-photo .main-img-cover:hover {
+        opacity: 1; }
+      #main .main-select-block-photo .main-img-cover .main-img-cover-content-wrap {
+        width: 100%;
+        height: 100%;
+        display: table; }
+        #main .main-select-block-photo .main-img-cover .main-img-cover-content-wrap .main-img-cover-content {
+          width: 100%;
+          height: 100%;
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center; }
+          #main .main-select-block-photo .main-img-cover .main-img-cover-content-wrap .main-img-cover-content h5 {
+            display: inline-block; }
+          #main .main-select-block-photo .main-img-cover .main-img-cover-content-wrap .main-img-cover-content p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 10px;
+            padding: 6px 20px; }
+          #main .main-select-block-photo .main-img-cover .main-img-cover-content-wrap .main-img-cover-content .main-img-cover-content-line {
+            width: 80%;
+            border-bottom: 2px #00b3ef solid;
+            margin: 0 auto; }
+  #main .main-select-block-text {
+    text-align: left;
+    margin: 0 4%; }
+    #main .main-select-block-text .main-select-block-text-line {
+      width: 60px;
+      border-bottom: 1px #fff solid;
+      margin: 16px 0; }
