@@ -1,0 +1,57 @@
+<style>
+	#mobile-menu {
+		width: 100%; display: none; position: fixed; z-index: 999999;
+		color: #fff; background-color: #00A0E2; overflow: hidden;
+	}
+	#mobile-menu a {color: #fff; text-transform: uppercase;}
+	.mobile-menu-content {
+		width: 100%; height: auto; display: table-cell; vertical-align: middle; text-align: center; 
+	}
+	.mobile-menu-button {cursor: pointer;}
+	#mobile-menu-gamburger {
+		width: 40px; height: 40px; overflow: hidden; padding: 5px 0 2px 0;
+	}
+	.mobile-menu-content ul {
+		margin: 0; padding: 0; height: 0;
+	}
+	.mobile-menu-content ul li {
+		list-style-type: none; overflow: hidden;  padding: 8px 4px;
+		height: auto;
+	}
+	.mobile-menu-content ul li a {font-size: 24px; text-decoration: none;}
+	@media screen and (max-width: 600px) {
+		#mobile-menu {
+			display: table;
+		}
+	}
+</style>
+
+<div id="mobile-menu">
+	<div class="mobile-menu-content">
+		<div class="mobile-menu-button">
+			<svg version="1.1" fill="#fff" id="mobile-menu-gamburger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="223.5px" height="163.781px" viewBox="38.25 63.875 223.5 163.781" enable-background="new 38.25 63.875 223.5 163.781" xml:space="preserve"><path d="M261.751,63.893v31.25H38.249v-31.25H261.751z M38.249,161.395h223.502v-31.25H38.249V161.395z M38.249,227.645h223.502v-31.25H38.249V227.645z"/>
+			</svg>
+		</div>
+		<ul>
+			<li><a href="#">О компании</a></li>
+			<li><a href="#">Бизнесс-Центры</a></li>
+			<li><a href="#">Аренда</a></li>
+			<li><a href="#">Новости</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</div>
+</div>
+
+<script>
+	var menu_status = false;
+	var menu = $(".mobile-menu-content").find('ul');
+	menu.css('height', '0');
+	$(".mobile-menu-button").click(function() {
+		if (menu_status) {
+			menu.css('height', '0');
+		} else {
+			menu.css('height', 'auto');
+		}
+		menu_status = !menu_status;
+	});
+</script>
