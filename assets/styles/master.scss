@@ -6,12 +6,14 @@ $color-2: #00b3ef;
 
 div, ul, li, ul, li,h1, h2 {outline: 1px red solid;}
 html,body {width: 100%; height: 100%;}
-body,a {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif;}
+body,a {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif; color: $color-1;}
 h1,h2,h3,h4,h5,h6,a,p {color: $color-1; margin: 0; padding: 0;}
 h1,h2,h3,h4,h5,h6,a,p span {font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;}
 h1 {font-size: 40px;}
 h2 {font-size: 36px;}
 p {font-size: 16px;}
+
+.clear {clear: both; outline: 1px blue solid;}
 
 //*************************************************
 
@@ -47,3 +49,13 @@ p {font-size: 16px;}
 		}
 	}
 }
+
+/* Стили для табличных блоков - 3 в ряд */
+
+.three-in-row-block-wrap {
+	padding: 0 2%;
+	.three-in-row-block {
+		width: 32%; height: auto; float: left; text-align: center;
+	}
+}
+

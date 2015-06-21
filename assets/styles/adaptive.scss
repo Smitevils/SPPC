@@ -21,6 +21,20 @@
 			}
 		}
 	}
+	#main .main-content {
+		padding-top: 54px!important;
+	}
+	/* текст на главной */
+	.main-text {
+		h1,h2 {font-size: 26px;}
+	}
+	/* 3 блока в ряд */
+	.three-in-row-block-wrap {
+		padding: 0;
+		.three-in-row-block {
+			width: 100%; height: auto; float: left;
+		}
+	}
 }
 
 @media screen and (max-width: 800px) {

@@ -12,6 +12,6 @@
 	}
 	.main-content {position: relative; z-index: 1; padding-top: 135px;}
 	.main-text {
-		width: 400px; height: auto; text-align: center; margin: 0 auto; padding: 20px 0;
+		height: auto; text-align: center; margin: 0 auto; padding: 20px 0; overflow: hidden;
 	}
 }
