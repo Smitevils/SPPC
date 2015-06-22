@@ -12,3 +12,14 @@
 		</div>
 	</div>
 </div>
+<script>
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 20) {
+			$("#main-menu").css('background', '#00A0E2');
+			$(".logo").addClass('logo-white');
+		} else {
+			$("#main-menu").css('background', 'transparent');
+			$(".logo").removeClass('logo-white');
+		}
+	});
+</script>

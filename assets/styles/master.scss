@@ -1,6 +1,8 @@
 @import 'variables';
 
-div, ul, li, ul, li,h1, h2 {outline: 1px red solid;}
+//div, ul, li, ul, li,h1, h2 {outline: 1px red solid;}
+//.clear {outline: 1px blue solid;}
+
 html,body {width: 100%; height: 100%;}
 body,a {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif; color: $color-1;}
 h1,h2,h3,h4,h5,h6,a,p {color: $color-1; margin: 0; padding: 0;}
@@ -19,7 +21,7 @@ p {font-size: 16px;}
 /*Убираем странный нижний отступ*/
 img {vertical-align:bottom;}
 
-.clear {clear: both; outline: 1px blue solid;}
+.clear {clear: both;}
 
 //*************************************************
 
@@ -27,12 +29,20 @@ img {vertical-align:bottom;}
 
 #main-menu {
 	width: 100%; min-height: 0; position: fixed; z-index: 9999;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 	.main-menu-center-block {
 		min-height: 45px; padding: 35px 0;
 		.logo {
 			width: 312px; height: 45px; float: left;
 			background: url(../img/svg/logo.svg);
 			background-size: 100% 100%;
+		}
+		.logo-white {
+			width: 312px; height: 45px; float: left;
+			background: url(../img/svg/logo-white.svg)!important;
+			background-size: 100% 100%!important;
 		}
 		.menu {
 			font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;

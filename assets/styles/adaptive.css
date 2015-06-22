@@ -27,7 +27,7 @@
           text-align: center; }
 
   #main .main-content {
-    padding-top: 54px !important; }
+    padding-top: 100px !important; }
 
   /* ╤В╨╡╨║╤Б╤В ╨╜╨░ ╨│╨╗╨░╨▓╨╜╨╛╨╣ */
   .main-text h1, .main-text h2 {
@@ -42,7 +42,10 @@
       float: left; } }
 @media screen and (max-width: 800px) {
   .width-center-block {
-    width: 560px; } }
+    width: 560px; }
+
+  #main .main-content {
+    padding-top: 54px !important; } }
 @media screen and (max-width: 600px) {
   .width-center-block {
     width: 100%; }

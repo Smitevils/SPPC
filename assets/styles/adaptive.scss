@@ -22,7 +22,7 @@
 		}
 	}
 	#main .main-content {
-		padding-top: 54px!important;
+		padding-top: 100px!important;
 	}
 	/* текст на главной */
 	.main-text {
@@ -39,6 +39,9 @@
 
 @media screen and (max-width: 800px) {
 	.width-center-block {width: 560px;}
+	#main .main-content {
+		padding-top: 54px!important;
+	}
 }
 
 @media screen and (max-width: 600px) {
