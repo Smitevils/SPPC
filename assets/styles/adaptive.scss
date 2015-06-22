@@ -12,6 +12,9 @@
 			.logo {
 				width: 312px; height: 45px; float: none; margin: 0 auto;
 			}
+			.logo-blue-gray {
+				width: 312px; height: 45px; float: none; margin: 0 auto;
+			}
 			.menu {
 				width: 100%; min-height: 0px; padding: 10px 0; float: none;
 				ul {
@@ -37,6 +40,7 @@
 			width: 100%; height: auto; float: left;
 		}
 	}
+	.contacts-form-bid .contacts-bid-block textarea {margin-top: 5px;}
 }
 
 @media screen and (max-width: 800px) {

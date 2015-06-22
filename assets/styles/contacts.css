@@ -38,13 +38,15 @@
   text-align: center;
   padding-bottom: 80px; }
   .contacts-form-bid h1 {
-    color: #666; }
+    color: #00b3ef;
+    padding-top: 30px; }
   .contacts-form-bid .contacts-line {
     width: 60px;
-    border-bottom: 4px #fff solid;
-    margin: 16px 0; }
+    border-bottom: 4px #00b3ef solid;
+    margin: 30px 0; }
   .contacts-form-bid p {
-    color: #666; }
+    color: #666;
+    padding-bottom: 30px; }
   .contacts-form-bid .contacts-bid-block {
     color: #000; }
     .contacts-form-bid .contacts-bid-block input {

@@ -14,6 +14,11 @@
       height: 45px;
       float: none;
       margin: 0 auto; }
+    #main-menu .main-menu-center-block .logo-blue-gray {
+      width: 312px;
+      height: 45px;
+      float: none;
+      margin: 0 auto; }
     #main-menu .main-menu-center-block .menu {
       width: 100%;
       min-height: 0px;
@@ -40,7 +45,10 @@
     .three-in-row-block-wrap .three-in-row-block {
       width: 100%;
       height: auto;
-      float: left; } }
+      float: left; }
+
+  .contacts-form-bid .contacts-bid-block textarea {
+    margin-top: 5px; } }
 @media screen and (max-width: 800px) {
   .width-center-block {
     width: 560px; }

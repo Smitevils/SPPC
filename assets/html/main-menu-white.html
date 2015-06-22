@@ -1,6 +1,6 @@
 <div id="main-menu" class="main-menu-white" style="background: #fff;">
 	<div class="main-menu-center-block width-center-block">
-		<div class="logo"></div>
+		<div class="logo logo-blue-gray"></div>
 		<div class="menu">
 			<ul>
 				<li><a href="index.php" class="active a-gray">О КОМПАНИ</a></li>
@@ -16,10 +16,16 @@
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > 20) {
 			$("#main-menu").css('background', '#00A0E2');
+			$(".logo").removeClass('logo-blue-gray');
 			$(".logo").addClass('logo-white');
+			$("#main-menu .main-menu-center-block .menu ul li a").removeClass('a-gray')
+			$("#main-menu .main-menu-center-block .menu ul li a").addClass('a-white')
 		} else {
 			$("#main-menu").css('background', '#fff');
+			$(".logo").addClass('logo-blue-gray');
 			$(".logo").removeClass('logo-white');
+			$("#main-menu .main-menu-center-block .menu ul li a").removeClass('a-white')
+			$("#main-menu .main-menu-center-block .menu ul li a").addClass('a-gray')
 		}
 	});
 </script>
