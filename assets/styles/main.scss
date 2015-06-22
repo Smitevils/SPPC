@@ -49,6 +49,13 @@
 	}
 	.main-select-block-text {
 		text-align: left; margin: 0 4%;
+		a {text-decoration: none;}
+		a:hover {
+			color: $font-color-2;
+			-webkit-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
+		}
 		.main-select-block-text-line {width: 60px; border-bottom: 1px $color-1 solid; margin: 16px 0;}
 	}
 	.footer {

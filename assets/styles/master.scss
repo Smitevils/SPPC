@@ -64,7 +64,7 @@ img {vertical-align:bottom;}
 						-o-transition: 300ms;
 						transition: 300ms;
 						&:hover {border-bottom: 1px $color-1 solid;}
-						&.active {border-bottom: 1px $color-2 solid;}
+						&.active {border-bottom: 1px $color-1 solid;}
 					}
 					a.a-gray {
 						text-decoration: none; display: inline-block; height: 30px;
@@ -73,7 +73,7 @@ img {vertical-align:bottom;}
 						-o-transition: 300ms;
 						transition: 300ms;
 						&:hover {border-bottom: 1px $font-color-1 solid;}
-						&.active {border-bottom: 1px $color-2 solid;}
+						&.active {border-bottom: 1px $color-1 solid;}
 					}
 				}
 			}

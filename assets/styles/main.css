@@ -93,6 +93,13 @@
   #main .main-select-block-text {
     text-align: left;
     margin: 0 4%; }
+    #main .main-select-block-text a {
+      text-decoration: none; }
+    #main .main-select-block-text a:hover {
+      color: #00A0E2;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
     #main .main-select-block-text .main-select-block-text-line {
       width: 60px;
       border-bottom: 1px #fff solid;
