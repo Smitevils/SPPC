@@ -22,3 +22,16 @@
 		h3,h4,h5 {text-transform: uppercase; padding: 12px 0; padding-right: 10%;}
 	}
 }
+.contacts-form-bid {
+	text-align: center; padding-bottom: 50px;
+	h1 {color: $font-color-3;}
+	.contacts-line {width: 60px; border-bottom: 4px $color-1 solid; margin: 16px 0;}
+	p {color: $font-color-3;}
+	.contacts-bid-block {
+		color: $font-color-4;
+		input {width: 92%; padding: 0 2%; height: 48px; margin: 5px 0; background: $color-3; border: 1px solid $color-4;}
+		textarea {width: 92%; padding: 0 2%; padding-top: 6px; height: 167px; resize: none; background: $color-3; border: 1px solid $color-4;}
+	}
+	.button-1 {float: right;}
+	.two-in-row-block-wrap {margin-bottom: 20px;}
+}

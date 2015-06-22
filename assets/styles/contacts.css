@@ -33,3 +33,36 @@
       text-transform: uppercase;
       padding: 12px 0;
       padding-right: 10%; }
+
+.contacts-form-bid {
+  text-align: center;
+  padding-bottom: 50px; }
+  .contacts-form-bid h1 {
+    color: #666; }
+  .contacts-form-bid .contacts-line {
+    width: 60px;
+    border-bottom: 4px #fff solid;
+    margin: 16px 0; }
+  .contacts-form-bid p {
+    color: #666; }
+  .contacts-form-bid .contacts-bid-block {
+    color: #000; }
+    .contacts-form-bid .contacts-bid-block input {
+      width: 92%;
+      padding: 0 2%;
+      height: 48px;
+      margin: 5px 0;
+      background: #f6f6f6;
+      border: 1px solid #dddddd; }
+    .contacts-form-bid .contacts-bid-block textarea {
+      width: 92%;
+      padding: 0 2%;
+      padding-top: 6px;
+      height: 167px;
+      resize: none;
+      background: #f6f6f6;
+      border: 1px solid #dddddd; }
+  .contacts-form-bid .button-1 {
+    float: right; }
+  .contacts-form-bid .two-in-row-block-wrap {
+    margin-bottom: 20px; }

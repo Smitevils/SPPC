@@ -34,7 +34,7 @@ img {vertical-align:bottom;}
 .width-center-block {width: 1170px; margin: 0 auto;}
 
 #main-menu {
-	width: 100%; min-height: 0; position: fixed; z-index: 9999;
+	width: 100%; min-height: 0; position: fixed; z-index: 99999;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -73,7 +73,7 @@ img {vertical-align:bottom;}
 						-o-transition: 300ms;
 						transition: 300ms;
 						&:hover {border-bottom: 1px $font-color-1 solid;}
-						&.active {border-bottom: 1px $color-1 solid;}
+						&.active {border-bottom: 1px $font-color-1 solid;}
 					}
 				}
 			}
@@ -81,12 +81,36 @@ img {vertical-align:bottom;}
 	}
 }
 
-/* Стили для табличных блоков - 3 в ряд */
+/* Кнопки */
 
+.button-1 { 
+	display: inline-block; padding: 10px 20px;
+	font-size: 16px; color: $font-color-6; cursor: pointer;
+	border: 1px solid $color-5; background: transparent;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
+	text-transform: uppercase;
+}
+.button-1:hover {color: $font-color-5; border: 1px solid $color-2; background: $color-2;}
+
+/* Стили для табличных блоков - 3 в ряд */
 .three-in-row-block-wrap {
 	padding: 0;
 	.three-in-row-block {
 		width: 33.3%; height: auto; float: left; text-align: center;
 	}
 }
-
+/* Стили для табличных блоков - 2 в ряд */
+.two-in-row-block-wrap {
+	padding: 0;
+	.two-in-row-block {
+		width: 50%; height: auto; float: left; text-align: center;
+	}
+}
