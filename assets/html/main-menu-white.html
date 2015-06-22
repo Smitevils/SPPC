@@ -1,0 +1,25 @@
+<div id="main-menu" class="main-menu-white" style="background: #fff;">
+	<div class="main-menu-center-block width-center-block">
+		<div class="logo"></div>
+		<div class="menu">
+			<ul>
+				<li><a href="#" class="active a-gray">О КОМПАНИ</a></li>
+				<li><a href="#" class="a-gray">БИЗНЕС-ЦЕНТРЫ</a></li>
+				<li><a href="#" class="a-gray">АРЕНДА</a></li>
+				<li><a href="#" class="a-gray">НОВОСТИ</a></li>
+				<li><a href="contacts.php" class="a-gray">КОНТАКТЫ</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script>
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 20) {
+			$("#main-menu").css('background', '#00A0E2');
+			$(".logo").addClass('logo-white');
+		} else {
+			$("#main-menu").css('background', '#fff');
+			$(".logo").removeClass('logo-white');
+		}
+	});
+</script>

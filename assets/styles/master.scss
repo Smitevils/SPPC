@@ -51,13 +51,22 @@ img {vertical-align:bottom;}
 				display: table; padding: 0px 0 0 0; margin: 0;
 				li {
 					display: table-cell; padding-left: 32px;
-					a {
+					a.a-white {
 						text-decoration: none; display: inline-block; height: 30px;
 						border-bottom: 1px $color-0 solid; color: $color-1;
 						-webkit-transition: 300ms;
 						-o-transition: 300ms;
 						transition: 300ms;
 						&:hover {border-bottom: 1px $color-1 solid;}
+						&.active {border-bottom: 1px $color-2 solid;}
+					}
+					a.a-gray {
+						text-decoration: none; display: inline-block; height: 30px;
+						border-bottom: 1px $color-0 solid; color: $font-color-1;
+						-webkit-transition: 300ms;
+						-o-transition: 300ms;
+						transition: 300ms;
+						&:hover {border-bottom: 1px $font-color-1 solid;}
 						&.active {border-bottom: 1px $color-2 solid;}
 					}
 				}
