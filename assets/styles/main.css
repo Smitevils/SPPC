@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* variables */
 #main {
   width: 100%;
@@ -43,7 +44,8 @@
     padding: 2%;
     margin: 4%;
     background: #fff;
-    position: relative; }
+    position: relative;
+    opacity: 0; }
     #main .main-select-block-photo .main-img-1 {
       width: 96%;
       height: 242px;
@@ -101,3 +103,51 @@
       float: left; }
     #main .footer .footer-text-right {
       float: right; }
+
+@-webkit-keyframes up {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1); } }
+@-moz-keyframes up {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0); }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1); } }
+@-o-keyframes up {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1); } }
+@keyframes up {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1); } }
+.up {
+  -webkit-animation-name: up;
+  -moz-animation-name: up;
+  -o-animation-name: up;
+  animation-name: up;
+  /* ╨Ч╨░╨┤╨╡╤А╨╢╨║╨░ ╨┐╨╡╤А╨╡╨┤ ╨╜╨░╤З╨░╨╗╨╛╨╝ */
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+  /* ╨Я╤А╨╛╨┤╨╛╨╗╨╢╨╕╤В╨╡╨╗╤М╨╜╨╛╤Б╤В╤М ╨░╨╜╨╕╨╝╨░╤Ж╨╕╨╕ */
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }

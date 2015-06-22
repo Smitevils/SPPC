@@ -45,10 +45,16 @@
     width: 560px; }
 
   #main .main-content {
-    padding-top: 54px !important; } }
+    padding-top: 120px !important; } }
 @media screen and (max-width: 600px) {
   .width-center-block {
     width: 100%; }
 
   #main-menu {
-    display: none; } }
+    display: none; }
+
+  .main-menu-padding-top {
+    padding-top: 52px; }
+
+  #main .main-content {
+    padding-top: 54px !important; } }
