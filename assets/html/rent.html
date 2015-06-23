@@ -1,0 +1,52 @@
+<div id="rent">
+	<!--  <div class="main-menu-padding-top"></div>-->
+	<div class="rent-content-wrap-1">
+		<img src="assets/img/rent-bg-1.jpg" alt="img">
+		<img src="assets/img/rent-bg-2.jpg" alt="img">
+		<img src="assets/img/main-bg-5.jpg" alt="img">
+		<img src="assets/img/main-bg-4.jpg" alt="img">
+		<!-- <div class="cover-img cover-img-1"></div> -->
+		<div class="cover-1"></div>
+		<div class="cover-2"></div>
+		<script>
+			//узнаем количество элементов в блоке
+			var img_count = $('.rent-content-wrap-1').find('img').length;
+			//пустой массив для хранения адресов картинок
+			var img_src = new Array();
+			//заносим в массив все адреса картинок в блоке
+			$("img").each(function(){
+				img_src.push($(this).attr("src"));
+			});
+
+			for (var i = 0; i < img_count; i++) {
+				$('.rent-content-wrap-1').prepend('<div class="cover-img cover-img-'+(i+1)+'"></div>')
+			};
+
+			//присваиваем фоны блокам и задаем opacity
+			for (var i = 0; i < img_count; i++) {
+				$('.cover-img-'+(i+1)+'').css('backgroundImage', 'url('+img_src[(i)]+')');
+				$('.cover-img-1').css('opacity', '1');
+			};
+			//$('.cover-img').css('backgroundImage', 'url('+img_src[2]+')');
+
+			var interval = 5000;
+			var slide_number = 1;
+
+			setInterval(function() {
+				checkBg();
+			}, interval);
+
+			function checkBg() {
+				slide_number++;
+				if (slide_number > img_count) {
+					slide_number = 1;
+				};
+				for (var i = 0; i < img_count; i++) {
+					$('.cover-img-'+(i+1)+'').css('opacity', '0');
+					$('.cover-img-'+slide_number+'').css('opacity', '1');
+				};
+				console.log(slide_number)
+			}
+		</script>
+	</div>
+</div>
