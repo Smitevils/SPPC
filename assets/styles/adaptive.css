@@ -86,7 +86,12 @@
 
   .contacts-form-bid .button-1 {
     float: none;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .news-content-block .news-content-box-left {
+    width: 96% !important; }
+  .news-content-block .news-content-box-right {
+    width: 96% !important; } }
 @media screen and (max-width: 600px) {
   .width-center-block {
     width: 100%; }

@@ -5,5 +5,23 @@
 }
 
 .news-content {
-	
+ padding-bottom: 40px;
 }
+
+.news-content-block {
+	padding: 30px 0 0 0;
+	h5 {color: $font-color-7; margin-top: 6px; margin-bottom: 14px;}
+	p {color: $font-color-9;}
+	.news-content-box-left {
+		float: left; width: 46%; text-align: center; padding: 15px 2%;
+		p {text-align: right;} h5 {text-align: right;}
+		img {width: 80%; height: auto;}
+	}
+	.news-content-box-right {
+		float: right; width: 46%; text-align: center; padding: 15px 2%;
+		p {text-align: left;} h5 {text-align: left;}
+		img {width: 80%; height: auto;}
+	}
+}
+
+.news-wrap-button {text-align: center; padding: 20px 0;}

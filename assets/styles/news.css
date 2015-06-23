@@ -1,1 +1,40 @@
 /* variables */
+.news-content {
+  padding-bottom: 40px; }
+
+.news-content-block {
+  padding: 30px 0 0 0; }
+  .news-content-block h5 {
+    color: #00b3ef;
+    margin-top: 6px;
+    margin-bottom: 14px; }
+  .news-content-block p {
+    color: #757575; }
+  .news-content-block .news-content-box-left {
+    float: left;
+    width: 46%;
+    text-align: center;
+    padding: 15px 2%; }
+    .news-content-block .news-content-box-left p {
+      text-align: right; }
+    .news-content-block .news-content-box-left h5 {
+      text-align: right; }
+    .news-content-block .news-content-box-left img {
+      width: 80%;
+      height: auto; }
+  .news-content-block .news-content-box-right {
+    float: right;
+    width: 46%;
+    text-align: center;
+    padding: 15px 2%; }
+    .news-content-block .news-content-box-right p {
+      text-align: left; }
+    .news-content-block .news-content-box-right h5 {
+      text-align: left; }
+    .news-content-block .news-content-box-right img {
+      width: 80%;
+      height: auto; }
+
+.news-wrap-button {
+  text-align: center;
+  padding: 20px 0; }
