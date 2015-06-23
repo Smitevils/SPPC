@@ -119,3 +119,15 @@ img {vertical-align:bottom;}
 		width: 50%; height: auto; float: left; text-align: center;
 	}
 }
+
+/*********************************/
+
+.block-title-with-text {
+	text-align: center; padding: 32px 0;
+	h1 {color: $font-color-2; font-size: 40px;}
+	.block-title-with-text-line {
+		width: 80px; margin: 0 auto; border-bottom: 4px solid $color-2;
+		margin-top: 45px; margin-bottom: 40px;
+	}
+	p {color: $font-color-8; font-size: 18px; max-width: 470px; margin: 0 auto;} 
+}

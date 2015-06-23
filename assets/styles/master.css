@@ -167,3 +167,22 @@ img {
     height: auto;
     float: left;
     text-align: center; }
+
+/*********************************/
+.block-title-with-text {
+  text-align: center;
+  padding: 32px 0; }
+  .block-title-with-text h1 {
+    color: #00A0E2;
+    font-size: 40px; }
+  .block-title-with-text .block-title-with-text-line {
+    width: 80px;
+    margin: 0 auto;
+    border-bottom: 4px solid #00b3ef;
+    margin-top: 45px;
+    margin-bottom: 40px; }
+  .block-title-with-text p {
+    color: #212121;
+    font-size: 18px;
+    max-width: 470px;
+    margin: 0 auto; }
