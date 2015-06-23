@@ -60,6 +60,13 @@ img {
 .clear {
   clear: both; }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
 .width-center-block {
   width: 1170px;
   margin: 0 auto; }

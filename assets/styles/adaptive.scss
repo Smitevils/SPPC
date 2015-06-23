@@ -63,10 +63,12 @@
 		}
 	}
 	.contacts-form-bid .button-1 {float: none; margin: 0 auto;}
-	.news-content-block {
-		.news-content-box-left {width: 96%!important;}
-		.news-content-box-right {width: 96%!important;}
+	.news-content-block-left,.news-content-block-right {
+		p,h5 {text-align: center!important;}
+		.news-content-box-left {width: 100%!important; text-align: center!important; border: none!important; margin-left: 0; margin-right: 0;}
+		.news-content-box-right {width: 100%!important; text-align: center!important; border: none!important; margin-left: 0; margin-right: 0;}
 	}
+	.gray-dot {display: none;}
 }
 
 @media screen and (max-width: 600px) {
