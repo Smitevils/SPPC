@@ -68,7 +68,8 @@
   text-align: center; }
   .bc-advantages-block h5 {
     font-size: 24px;
-    color: #868686; }
+    color: #868686;
+    padding-top: 10px; }
   .bc-advantages-block .line-gray {
     width: 74px;
     border-bottom: 1px solid #868686;

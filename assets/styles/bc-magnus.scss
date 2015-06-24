@@ -40,7 +40,7 @@
 .bc-advantages-block {
 	padding: 10px 0; text-align: center;
 	h5 {
-		font-size: 24px; color: $font-color-10;
+		font-size: 24px; color: $font-color-10; padding-top: 10px;
 	}
 	.line-gray {width: 74px; border-bottom: 1px solid $font-color-10; margin: 0 auto; padding-top: 10px;}
 	p {font-size: 18px; color: $font-color-10; padding: 10px 26px;}
@@ -113,6 +113,10 @@
 	h4 {font-size: 30px; color: $font-color-11; padding: 25px 0;}
 	p {font-size: 18px; color: $font-color-11; padding-bottom: 16px;}
 	.down_button {bottom: 20px;}
+}
+
+.photo-carousel {
+
 }
 
 .number-block-wrap {
