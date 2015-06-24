@@ -40,6 +40,11 @@
 			width: 100%; height: auto; float: left;
 		}
 	}
+	.four-in-row-block-wrap {
+		.four-in-row-block {
+			width: 50%; height: auto;
+		}
+	}
 	.contacts-form-bid .contacts-bid-block textarea {margin-top: 5px;}
 }
 
@@ -59,6 +64,11 @@
 	}
 	.two-in-row-block-wrap {
 		.two-in-row-block {
+			width: 100%; height: auto; float: none;
+		}
+	}
+	.four-in-row-block-wrap {
+		.four-in-row-block {
 			width: 100%; height: auto; float: none;
 		}
 	}
