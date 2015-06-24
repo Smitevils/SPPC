@@ -38,13 +38,13 @@ p {
   font-size: 16px; }
 
 /* ╨Э╨░╨║╨╕╨┤╨║╨░ ╨╜╨░ ╤Д╨╛╨╜ */
-.cover-1 {
+.cover-black {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   width: 100%;
   height: 100%; }
 
-.cover-2 {
+.cover-blue {
   background: rgba(0, 172, 236, 0.3);
   position: absolute;
   width: 100%;
@@ -199,3 +199,22 @@ img {
     font-size: 18px;
     max-width: 470px;
     margin: 0 auto; }
+
+/* ╤Б╤В╨╕╨╗╨╕ ╨░╨┤╨░╨┐╤В╨╕╨▓╨╜╨╛╨│╨╛ ╤Б╨╗╨░╨╣╨┤╨╡╤А╨░ */
+.adaptive-slider-container {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+  .adaptive-slider-container img {
+    display: none; }
+  .adaptive-slider-container .cover-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-position: top !important;
+    opacity: 0;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s; }
