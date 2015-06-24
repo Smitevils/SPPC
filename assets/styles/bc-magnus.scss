@@ -32,6 +32,11 @@
 
 .bc-content {}
 
+.bc-advantages {
+	padding-bottom: 70px;
+	.down_button {bottom: -50px;}
+}
+
 .bc-advantages-block {
 	padding: 10px 0; text-align: center;
 	h5 {
@@ -93,4 +98,35 @@
 	background-position: -484px -153px ;
 	width: 138px;
 	height: 138px;
+}
+
+
+.about-business-wrap {
+	background-color: $color-6;
+}
+.about-business {
+
+}
+
+.free-office {
+	padding-bottom: 70px; position: relative; text-align: center;
+	h4 {font-size: 30px; color: $font-color-11; padding: 25px 0;}
+	p {font-size: 18px; color: $font-color-11; padding-bottom: 16px;}
+	.down_button {bottom: 20px;}
+}
+
+.number-block-wrap {
+	background: url(../img/phone-block-bg.jpg) no-repeat center;
+	background-size: cover; overflow: hidden; position: relative;
+}
+.number-block {
+	padding: 50px 0; text-align: center;
+	.number-block-text {
+		z-index: 3; position: relative; padding: 30px 70px; display: inline-block; border: 8px solid $color-transparent-3;
+		.number-block-line {border-bottom: 1px solid $color-1; width: 36%; display: inline-block;}
+	}
+}
+
+.advantages-map {
+	height: 450px;
 }

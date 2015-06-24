@@ -125,4 +125,7 @@
     padding-top: 52px; }
 
   #main .main-content {
-    padding-top: 54px !important; } }
+    padding-top: 54px !important; }
+
+  .block-title-with-text h1 {
+    font-size: 26px; } }
