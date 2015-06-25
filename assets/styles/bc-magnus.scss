@@ -55,6 +55,59 @@
 	background: url(../img/icons-bc/sprites.png) no-repeat; margin: 0 auto;
 }
 
+.advantages-img {
+	width: 138px;
+	height: 138px;
+}
+/**/
+.advantages-img-1 {
+	background: url(../img/icons-bc/advantages-1-up.png) no-repeat; margin: 0 auto;
+	background-size: 100% 100%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.bdab1:hover .advantages-img-1 {
+	background: url(../img/icons-bc/advantages-1-down.png) no-repeat; margin: 0 auto;
+	background-size: 100% 100%;
+}
+/**/
+.advantages-img-2 {
+	background: url(../img/icons-bc/advantages-2-up.png) no-repeat; margin: 0 auto;
+	background-size: 100% 100%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.bdab2:hover .advantages-img-2 {
+	background: url(../img/icons-bc/advantages-2-down.png) no-repeat; margin: 0 auto;
+	background-size: 100% 100%;
+}
+/**/
+.advantages-img-3 {
+	background: url(../img/icons-bc/advantages-3-up.png) no-repeat; margin: 0 auto;
+	background-size: 100% 100%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.bdab3:hover .advantages-img-3 {
+	background: url(../img/icons-bc/advantages-3-down.png) no-repeat; margin: 0 auto;
+	background-size: 100% 100%;
+}
+/**/
+.advantages-img-4 {
+	background: url(../img/icons-bc/advantages-4-up.png) no-repeat; margin: 0 auto;
+	background-size: 100% 100%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.bdab4:hover .advantages-img-4 {
+	background: url(../img/icons-bc/advantages-4-down.png) no-repeat; margin: 0 auto;
+	background-size: 100% 100%;
+}
+
 .advantages-1-up{
 	background-position: -12px -8px ;
 	width: 138px;
