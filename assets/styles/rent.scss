@@ -1,3 +1,21 @@
+@import 'variables';
+
 .rent-content-head {
 	height: 900px; overflow: hidden; position: relative;
+}
+
+.rent-free-office {
+	
+}
+
+.rent-number-block-wrap {
+	background: url(../img/phone-block-bg.jpg) no-repeat center;
+	background-size: cover; overflow: hidden; position: relative;
+}
+.rent-number-block {
+	padding: 70px 0; text-align: center;
+	.rent-number-block-text {
+		z-index: 3; position: relative; padding: 40px 70px 60px 70px; display: inline-block; border: 8px solid $color-transparent-3;
+		.rent-number-block-line {border-bottom: 1px solid $color-1; width: 36%; display: inline-block;}
+	}
 }

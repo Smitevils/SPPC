@@ -215,12 +215,12 @@
   position: relative; }
 
 .number-block {
-  padding: 50px 0;
+  padding: 70px 0;
   text-align: center; }
   .number-block .number-block-text {
     z-index: 3;
     position: relative;
-    padding: 30px 70px;
+    padding: 40px 70px 60px 70px;
     display: inline-block;
     border: 8px solid rgba(255, 255, 255, 0.3); }
     .number-block .number-block-text .number-block-line {
