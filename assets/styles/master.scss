@@ -39,6 +39,9 @@ clear: both;
 visibility: hidden;
 }
 
+/* обертки */
+
+.wrap-1 {background-color: $wrap-color-1;}
 
 //*************************************************
 
@@ -117,6 +120,23 @@ visibility: hidden;
 	color: $font-color-5; border: 1px solid $color-2; background: $color-2;
 }
 .button-1:hover {color: $font-color-6; border: 1px solid $color-5;  background: transparent;}
+
+.button-2 { 
+	display: inline-block; padding: 10px 20px;
+	font-size: 16px;  cursor: pointer;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
+	text-transform: uppercase;
+	color: $font-color-6; border: 1px solid $color-5; background: transparent;
+}
+//.button-2:hover {color: $font-color-5; border: 1px solid $color-2;  background: $color-2;}
 
 /* Стили для табличных блоков - 4 в ряд */
 .four-in-row-block-wrap {

@@ -5,7 +5,7 @@
 }
 
 .rent-free-office {
-	
+
 }
 
 .rent-number-block-wrap {
@@ -18,4 +18,50 @@
 		z-index: 3; position: relative; padding: 40px 70px 60px 70px; display: inline-block; border: 8px solid $color-transparent-3;
 		.rent-number-block-line {border-bottom: 1px solid $color-1; width: 36%; display: inline-block;}
 	}
+}
+
+.rent-choise-wrap {padding: 40px 0 100px 0;}
+
+.rent-choise-block {
+	border: 1px solid $color-7; width: 90%; margin: 0 auto; 
+	.rent-choise-block-img-head {
+		background-color: $color-8; padding: 20px 0;
+		-webkit-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		h2 {font-size: 30px;}
+		p {
+			color: $font-color-12;
+			-webkit-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
+		}
+	}
+	img {width: 100%; height: auto;}
+	table {width: 100%; color: $color-8; border-collapse: collapse;}
+	table tr th,td {padding: 10px 0; width: 50%; border: 1px dotted black;}
+	table tr th {border-top: none;}
+
+	table tr th:first-child,td:first-child {
+		border-left: none;
+	}
+	table tr th:nth-child(2n),td:nth-child(2n) {
+		border-right: none;
+	}
+	.button-2 {margin: 10px 0;}
+}
+.rent-choise-block:hover .rent-choise-block-img-head {
+	background-color: $font-color-7;
+	h2 {color: $color-1;}
+	p {color: $color-1;}
+}
+.rent-choise-block:hover {
+	.button-2 {color: $font-color-5; border: 1px solid $color-2;  background: $color-2;}
+}
+
+.rent-mail-block {
+	.rent-mail-box {padding: 0 20px;}
+	text-align: center;
+	input {width: 100%; margin: 20px 0px;}
+	textarea {width: 100%; resize: none;}
 }
