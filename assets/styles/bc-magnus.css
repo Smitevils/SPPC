@@ -50,7 +50,10 @@
         width: 25%;
         display: table-cell;
         vertical-align: middle;
-        font-size: 22px; }
+        font-size: 22px;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s; }
         .bc-magnus-head-menu-wrap .bc-magnus-head-menu ul li:hover {
           background-color: #03c0ff;
           cursor: pointer; }
