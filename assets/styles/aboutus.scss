@@ -6,3 +6,22 @@
 .aboutus-main {
 	p {font-size: 18px; color: $font-color-8; padding: 10px 50px;}
 }
+
+.aboutus-video-block {
+	margin-top: 20px; margin-bottom: 20px;
+}
+
+.aboutus-video-under-block {
+	.two-in-row-block {text-align: left;}
+	h3 {color: $font-color-1; text-align: left;}
+	p {color: $font-color-1; text-align: left;}
+	.button-1 {margin: 0 0; margin-top: 10px;}
+	.text-aboutus {
+		/*max-height: 80px;*/ overflow: hidden;
+	}
+}
+
+.owr-advantages {
+	padding: 30px 0px;
+	p {font-size: 18px; color: $font-color-8; padding: 10px 50px;}
+}

@@ -6,3 +6,29 @@
   font-size: 18px;
   color: #212121;
   padding: 10px 50px; }
+
+.aboutus-video-block {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.aboutus-video-under-block .two-in-row-block {
+  text-align: left; }
+.aboutus-video-under-block h3 {
+  color: #576165;
+  text-align: left; }
+.aboutus-video-under-block p {
+  color: #576165;
+  text-align: left; }
+.aboutus-video-under-block .button-1 {
+  margin: 0 0;
+  margin-top: 10px; }
+.aboutus-video-under-block .text-aboutus {
+  /*max-height: 80px;*/
+  overflow: hidden; }
+
+.owr-advantages {
+  padding: 30px 0px; }
+  .owr-advantages p {
+    font-size: 18px;
+    color: #212121;
+    padding: 10px 50px; }

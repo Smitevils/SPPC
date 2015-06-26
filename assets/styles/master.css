@@ -286,3 +286,20 @@ img {
   .down_button:hover {
     background: url(../img/icons/btn-down-down.png) no-repeat center;
     background-size: cover; }
+
+/* fitvids */
+video {
+  max-width: 100%;
+  height: auto; }
+
+iframe,
+embed,
+object {
+  max-width: 100% !important; }
+
+.video_container {
+  width: 100%;
+  padding: 0%;
+  margin: 0px auto;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); }
