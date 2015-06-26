@@ -190,6 +190,11 @@ img {
   border: 1px solid #727272;
   background: transparent; }
 
+.button-2:hover {
+  color: #fff;
+  border: 1px solid #00b3ef;
+  background: #00b3ef; }
+
 /* ╨б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╤В╨░╨▒╨╗╨╕╤З╨╜╤Л╤Е ╨▒╨╗╨╛╨║╨╛╨▓ - 4 ╨▓ ╤А╤П╨┤ */
 .four-in-row-block-wrap {
   padding: 0;
@@ -238,6 +243,13 @@ img {
     font-size: 18px;
     max-width: 470px;
     margin: 0 auto; }
+
+.block-title-with-text-line-2 {
+  width: 80px;
+  margin: 0 auto;
+  border-bottom: 4px solid #00b3ef;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 /* ╤Б╤В╨╕╨╗╨╕ ╨░╨┤╨░╨┐╤В╨╕╨▓╨╜╨╛╨│╨╛ ╤Б╨╗╨░╨╣╨┤╨╡╤А╨░ */
 .adaptive-slider-container {

@@ -136,7 +136,7 @@ visibility: hidden;
 	text-transform: uppercase;
 	color: $font-color-6; border: 1px solid $color-5; background: transparent;
 }
-//.button-2:hover {color: $font-color-5; border: 1px solid $color-2;  background: $color-2;}
+.button-2:hover {color: $font-color-5; border: 1px solid $color-2;  background: $color-2;}
 
 /* Стили для табличных блоков - 4 в ряд */
 .four-in-row-block-wrap {
@@ -171,6 +171,10 @@ visibility: hidden;
 	}
 	p {color: $font-color-8; font-size: 18px; max-width: 470px; margin: 0 auto;} 
 }
+.block-title-with-text-line-2 {
+		width: 80px; margin: 0 auto; border-bottom: 4px solid $color-2;
+		margin-top: 20px; margin-bottom: 20px;
+	}
 
 /* стили адаптивного слайдера */
 
