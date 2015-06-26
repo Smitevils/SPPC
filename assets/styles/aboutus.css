@@ -27,8 +27,17 @@
   overflow: hidden; }
 
 .owr-advantages {
-  padding: 30px 0px; }
+  padding: 30px 0px;
+  overflow: hidden; }
   .owr-advantages p {
     font-size: 18px;
     color: #212121;
     padding: 10px 50px; }
+
+.owr-advantages-bg {
+  overflow: hidden;
+  position: relative;
+  background: url(../img/aboutus.jpg) center;
+  background-size: cover; }
+  .owr-advantages-bg .owr-advantages-content {
+    height: 200px; }
