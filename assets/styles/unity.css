@@ -719,6 +719,8 @@ object {
 .aboutus-video-under-block .text-aboutus {
   /*max-height: 80px;*/
   overflow: hidden; }
+  .aboutus-video-under-block .text-aboutus a {
+    color: #576165; }
 
 .owr-advantages {
   padding: 30px 0px;
@@ -1082,19 +1084,20 @@ object {
       width: 92%;
       padding: 0 2%;
       height: 48px;
-      margin: 5px 0;
+      margin-bottom: 10px;
       background: #f6f6f6;
       border: 1px solid #dddddd; }
     .contacts-form-bid .contacts-bid-block textarea {
       width: 92%;
       padding: 0 2%;
       padding-top: 6px;
-      height: 167px;
+      height: 162px;
       resize: none;
       background: #f6f6f6;
       border: 1px solid #dddddd; }
   .contacts-form-bid .button-1 {
-    float: right; }
+    float: right;
+    margin-right: 10px; }
   .contacts-form-bid .two-in-row-block-wrap {
     margin-bottom: 20px; }
 
@@ -1153,19 +1156,20 @@ object {
       width: 92%;
       padding: 0 2%;
       height: 48px;
-      margin: 5px 0;
+      margin-bottom: 10px;
       background: #f6f6f6;
       border: 1px solid #dddddd; }
     .contacts-form-bid .contacts-bid-block textarea {
       width: 92%;
       padding: 0 2%;
       padding-top: 6px;
-      height: 167px;
+      height: 162px;
       resize: none;
       background: #f6f6f6;
       border: 1px solid #dddddd; }
   .contacts-form-bid .button-1 {
-    float: right; }
+    float: right;
+    margin-right: 10px; }
   .contacts-form-bid .two-in-row-block-wrap {
     margin-bottom: 20px; }
 
