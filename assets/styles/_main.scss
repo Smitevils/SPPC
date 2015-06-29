@@ -60,7 +60,10 @@
 	}
 	.footer {
 		padding: 80px 0 30px 0;
-		.footer-text-left {float: left;}
+		.footer-text-left {
+			float: left;
+			p {line-height: 73px;}
+		}
 		.footer-text-right {
 			float: right;
 			p {float: left; display: inline-block; line-height: 73px; padding-right: 20px;}
@@ -130,3 +133,5 @@ animation-duration: 2s;
 -o-animation-fill-mode: forwards;
 animation-fill-mode: forwards;
 }
+
+/*************/

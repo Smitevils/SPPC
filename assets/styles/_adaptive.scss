@@ -101,6 +101,14 @@
 	}
 	// --
 	.down_button {bottom: 100px;}
+	//--
+	.rent-content-head {height: 600px;}
+	.rent-mail-block {
+		.button-2 {margin-right: 20px;}
+	}
+	.rent-number-block-text {
+		h1 {font-size: 22px; padding-top: 10px;}
+	}
 }
 
 @media screen and (max-width: 600px) {
