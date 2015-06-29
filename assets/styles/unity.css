@@ -142,6 +142,12 @@
   font-style: normal;
   font-weight: normal; }
 /* variables */
+div, ul, li, ul, li, h1, h2, p, a {
+  outline: 1px red solid; }
+
+.clear {
+  outline: 1px blue solid; }
+
 html, body {
   width: 100%;
   height: 100%; }
@@ -472,9 +478,10 @@ object {
     display: inline-block;
     text-decoration: none;
     font-size: 54px;
-    border: 13px solid rgba(255, 255, 255, 0.5);
+    border: 8px solid rgba(255, 255, 255, 0.5);
     padding: 16px 38px;
-    margin-top: 47px; }
+    margin-top: 47px;
+    font-family: "OpenSansSemiBold", OpenSansSemiBold, Arial, sans-serif !important; }
 
 .bc-magnus-head-menu-wrap {
   position: absolute;
@@ -506,6 +513,9 @@ object {
         .bc-magnus-head-menu-wrap .bc-magnus-head-menu ul li a {
           text-decoration: none;
           display: block; }
+
+.bc-content h1 {
+  padding-top: 30px; }
 
 .bc-advantages {
   padding-bottom: 70px; }
@@ -666,7 +676,7 @@ object {
   .number-block .number-block-text {
     z-index: 3;
     position: relative;
-    padding: 40px 70px 60px 70px;
+    padding: 40px 70px 40px 70px;
     display: inline-block;
     border: 8px solid rgba(255, 255, 255, 0.3); }
     .number-block .number-block-text .number-block-line {
@@ -803,7 +813,7 @@ object {
     #main .footer .footer-text-left {
       float: left; }
       #main .footer .footer-text-left p {
-        line-height: 73px;
+        line-height: 37px;
         font-family: "MyriadProRegular",MyriadProRegular,Arial,sans-serif; }
     #main .footer .footer-text-right {
       float: right; }
@@ -1030,6 +1040,15 @@ object {
   height: 900px;
   overflow: hidden;
   position: relative; }
+  .rent-content-head .head-text-centered h1 {
+    font-family: "OpenSansExtraBold",OpenSansExtraBold,Arial,sans-serif; }
+  .rent-content-head .head-text-centered p {
+    font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif; }
+  .rent-content-head .head-text-centered a {
+    font-family: "OpenSansSemiBold",OpenSansSemiBold,Arial,sans-serif; }
+
+.rent-free-office h1 {
+  padding-top: 60px; }
 
 .rent-number-block-wrap {
   background: url(../img/phone-block-bg.jpg) no-repeat center;
@@ -1043,7 +1062,7 @@ object {
   .rent-number-block .rent-number-block-text {
     z-index: 3;
     position: relative;
-    padding: 40px 70px 60px 70px;
+    padding: 40px 70px 40px 70px;
     display: inline-block;
     border: 8px solid rgba(255, 255, 255, 0.3); }
     .rent-number-block .rent-number-block-text .rent-number-block-line {
@@ -1068,9 +1087,10 @@ object {
     -o-transition: all 0.3s;
     transition: all 0.3s; }
     .rent-choise-block .rent-choise-block-img-head h2 {
-      font-size: 30px; }
+      font-size: 24px; }
     .rent-choise-block .rent-choise-block-img-head p {
       color: #03c0ff;
+      font-size: 14px;
       -webkit-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
@@ -1116,7 +1136,8 @@ object {
     padding: 0 40px 0 20px; }
   .rent-mail-block .button-2 {
     float: right;
-    margin: 10px 0; }
+    margin: 10px 0;
+    margin-right: 17px; }
   .rent-mail-block input {
     width: 100%;
     padding: 5px 10px;
@@ -1295,7 +1316,7 @@ object {
   padding-bottom: 80px; }
   .contacts-form-bid h1 {
     color: #00b3ef;
-    padding-top: 30px; }
+    padding-top: 60px; }
   .contacts-form-bid .contacts-line {
     width: 60px;
     border-bottom: 4px #00b3ef solid;
@@ -1367,7 +1388,7 @@ object {
   padding-bottom: 80px; }
   .contacts-form-bid h1 {
     color: #00b3ef;
-    padding-top: 30px; }
+    padding-top: 60px; }
   .contacts-form-bid .contacts-line {
     width: 60px;
     border-bottom: 4px #00b3ef solid;
@@ -1585,7 +1606,7 @@ footer {
     height: 600px; }
 
   .rent-mail-block .button-2 {
-    margin-right: 20px; }
+    margin-right: 17px; }
 
   .rent-number-block-text h1 {
     font-size: 22px;
@@ -1645,4 +1666,26 @@ footer {
     text-align: center; }
 
   .ourclients h2 {
-    font-size: 26px; } }
+    font-size: 26px; }
+
+  .rent-free-office h1 {
+    padding-top: 0px; }
+
+  .rent-number-block .rent-number-block-text {
+    padding: 30px 10px !important; }
+
+  .contacts-form-bid h1 {
+    padding-top: 30px; }
+
+  .contacts-characteristics {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+  /*****/
+  .number-block .number-block-text {
+    padding: 40px 10px 40px 10px !important; }
+
+  /********/
+  .footer-content p {
+    width: 100%;
+    text-align: center; } }

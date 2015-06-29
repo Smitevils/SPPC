@@ -125,7 +125,7 @@
 	//--
 	.rent-content-head {height: 600px;}
 	.rent-mail-block {
-		.button-2 {margin-right: 20px;}
+		.button-2 {margin-right: 17px;}
 	}
 	.rent-number-block-text {
 		h1 {font-size: 22px; padding-top: 10px;}
@@ -170,4 +170,16 @@
 	.aboutus-video-under-block .button-1 {margin-bottom: 10px;}
 	.text-aboutus p {text-align: center;}
 	.ourclients h2 {font-size: 26px;}
+	//
+	.rent-free-office {h1 {padding-top: 0px;}}
+	.rent-number-block .rent-number-block-text {padding: 30px 10px!important;}
+	//
+	.contacts-form-bid {h1 {padding-top: 30px;}}
+	.contacts-characteristics {margin-top: 10px; margin-bottom: 10px;}
+	/*****/
+	.number-block .number-block-text {padding: 40px 10px 40px 10px!important;}
+	/********/
+	.footer-content {
+		p {width: 100%; text-align: center;}
+	}
 }
