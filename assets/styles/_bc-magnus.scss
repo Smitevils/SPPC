@@ -45,7 +45,7 @@
 	h5 {
 		font-size: 24px; color: $font-color-10; padding-top: 10px;
 	}
-	.line-gray {width: 74px; border-bottom: 1px solid $font-color-10; margin: 0 auto; padding-top: 10px;}
+	.line-gray {width: 74px; border-bottom: 4px solid $font-color-10; margin: 0 auto; padding-top: 10px;}
 	p {font-size: 18px; color: $font-color-10; padding: 10px 26px;}
 }
 
@@ -184,6 +184,7 @@
 	.number-block-text {
 		z-index: 3; position: relative; padding: 40px 70px 60px 70px; display: inline-block; border: 8px solid $color-transparent-3;
 		.number-block-line {border-bottom: 1px solid $color-1; width: 36%; display: inline-block;}
+		h1 {padding-top: 10px;}
 	}
 }
 

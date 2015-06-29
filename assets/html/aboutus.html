@@ -3,7 +3,7 @@
 	<div class="aboutus-main width-center-block">
 		<div class="head-text-centered-wrap">
 			<div class="head-text-centered">
-				<h1><span><blink>АРЕНДА ОФИСА</blink></span></h1>
+				<h1><span><blink>КТО МЫ</blink></span></h1>
 				<div class="block-title-with-text-line-2"></div>
 				<p>Компания предоставляет высокое качество  сервиса, чистые и уютные офисы, а также просторные помещения для розничной торговли или общественного питания. </p>
 			</div>
@@ -32,7 +32,7 @@
 	<div class="owr-advantages width-center-block">
 		<div class="head-text-centered-wrap">
 			<div class="head-text-centered">
-				<h2><span><blink>АРЕНДА ОФИСА</blink></span></h2>
+				<h2><span><blink>НАШИ ПРЕИМУЩЕСТВА</blink></span></h2>
 				<div class="block-title-with-text-line-2"></div>
 				<p>Компания предоставляет высокое качество  сервиса, чистые и уютные офисы, а также просторные помещения для розничной торговли или общественного питания. </p>
 			</div>
@@ -71,6 +71,7 @@
 				<p>Компания предоставляет высокое качество  сервиса, чистые и уютные офисы, а также просторные помещения для розничной торговли или общественного питания. </p>
 			</div>
 		</div>
+		<!--  Спрятал блок персонала т.к. чуть ниже вставил карусельку
 		<div class="ourteam-container">
 			<div class="four-in-row-block-wrap">
 				<div class="four-in-row-block">
@@ -100,6 +101,72 @@
 				<div class="clear"></div>
 			</div>
 		</div>
+		 -->
+
+	<div class="ourteam-container">
+		<div class="photo-carousel" id="gallery">
+			<div id="owl-demo">
+				<div class="item">
+					<div class="ourteam-photo-block">
+						<img src="assets/img/about/photo-2.jpg" alt="team">
+						<h6><span>ИМЯ </span><br>ДОЛЖНОСТЬ</h6>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ourteam-photo-block">
+						<img src="assets/img/about/photo-1.jpg" alt="team">
+						<h6><span>ИМЯ </span><br>ДОЛЖНОСТЬ</h6>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ourteam-photo-block">
+						<img src="assets/img/about/photo-3.jpg" alt="team">
+						<h6><span>ИМЯ </span><br>ДОЛЖНОСТЬ</h6>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ourteam-photo-block">
+						<img src="assets/img/about/photo-1.jpg" alt="team">
+						<h6><span>ИМЯ </span><br>ДОЛЖНОСТЬ</h6>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ourteam-photo-block">
+						<img src="assets/img/about/photo-2.jpg" alt="team">
+						<h6><span>ИМЯ </span><br>ДОЛЖНОСТЬ</h6>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ourteam-photo-block">
+						<img src="assets/img/about/photo-3.jpg" alt="team">
+						<h6><span>ИМЯ </span><br>ДОЛЖНОСТЬ</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<style>
+			#owl-demo {background-color: #f5f5f5;}
+			#owl-demo .item{
+					margin: 3px; text-align: center;
+				}
+				#owl-demo .item img{
+					display: block;
+					width: 100%;
+					height: auto;
+				}
+		</style>
+		<script>
+			$(document).ready(function() {
+				$("#owl-demo").owlCarousel({
+						autoPlay: 3000, //Set AutoPlay to 3 seconds
+						items : 4,
+						itemsDesktop : [1199,3],
+						itemsDesktopSmall : [979,3]
+				});
+			});
+		</script>
+
 	</div>
 	<div class="ourclients-bg">
 		<div class="cover-black"></div>
