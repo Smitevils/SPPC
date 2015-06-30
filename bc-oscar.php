@@ -4,4 +4,15 @@
 	<?php include_once "assets/html/main-menu.html" ?>
 	<?php include_once "assets/html/bc-oscar.html" ?>
 	<?php include_once "assets/html/footer.html" ?>
+<script>
+$(document).ready(function(){
+	var height = $(window).height();
+	$(".bc-magnus-content-head").height(height);
+	$(window).resize(function(event) {
+		var height = $(window).height();
+		$(".bc-magnus-content-head").height(height);
+	});
+})
+</script>
+
 </body>

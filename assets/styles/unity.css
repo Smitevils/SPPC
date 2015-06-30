@@ -803,7 +803,8 @@ object {
       border-bottom: 1px #fff solid;
       margin: 16px 0; }
   #main .footer {
-    padding: 40px 0 30px 0; }
+    padding: 60px 0 30px 0;
+    margin-top: 20px; }
     #main .footer .footer-text-left {
       float: left; }
       #main .footer .footer-text-left p {
@@ -1424,7 +1425,7 @@ footer {
 @media screen and (max-height: 800px) {
   /* ╨Я╤А╨░╨▓╨║╨╕ ╨╜╨░ ╨│╨╗╨░╨▓╨╜╨╛╨╣ */
   .main-content .three-in-row-block-wrap {
-    width: 60% !important; }
+    width: 100% !important; }
 
   .main-content .main-text {
     padding: 0 !important; }
@@ -1454,12 +1455,30 @@ footer {
 
   .main-content .main-text {
     padding: 20px 0 !important; } }
-@media screen and (max-width: 1200px) {
-  .width-center-block {
-    width: 960px; } }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
   .width-center-block {
     width: 760px; }
+
+  #main-menu .main-menu-center-block .logo-blue-gray {
+    width: 260px; }
+
+  #main-menu .main-menu-center-block .logo-white {
+    width: 260px; }
+
+  #main-menu .main-menu-center-block .logo {
+    width: 260px; }
+
+  #main-menu .main-menu-center-block .menu ul li {
+    padding-left: 16px; }
+
+  .menu ul li a {
+    font-size: 13px !important; }
+
+  .rent-content-head .down_button {
+    bottom: 60px; } }
+@media screen and (max-width: 1000px) {
+  .width-center-block {
+    width: 560px; }
 
   #main-menu .main-menu-center-block {
     padding: 10px 0; }
@@ -1489,11 +1508,9 @@ footer {
   #main .main-content {
     padding-top: 100px !important; }
 
-  /* ╤В╨╡╨║╤Б╤В ╨╜╨░ ╨│╨╗╨░╨▓╨╜╨╛╨╣ */
   .main-text h1, .main-text h2 {
     font-size: 26px; }
 
-  /* 3 ╨▒╨╗╨╛╨║╨░ ╨▓ ╤А╤П╨┤ */
   .three-in-row-block-wrap {
     padding: 0; }
     .three-in-row-block-wrap .three-in-row-block {
@@ -1583,9 +1600,6 @@ footer {
     .footer .footer-text-right .social {
       float: none; }
 
-  .bc-magnus-content-head {
-    height: 630px; }
-
   .head-text-centered h1 {
     font-size: 40px; }
     .head-text-centered h1 strong {
@@ -1597,7 +1611,7 @@ footer {
     bottom: 100px; }
 
   .rent-content-head {
-    height: 600px; }
+    /*height: 600px;*/ }
 
   .rent-mail-block .button-2 {
     margin-right: 17px; }
@@ -1627,13 +1641,11 @@ footer {
     font-size: 26px; }
 
   .down_button {
-    bottom: 30px; }
+    bottom: 30px;
+    display: none !important; }
 
   .bc-magnus-head-menu-wrap {
     display: none; }
-
-  .bc-magnus-content-head {
-    height: 500px; }
 
   .head-text-centered h1 {
     font-size: 36px; }

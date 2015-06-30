@@ -4,7 +4,7 @@
 	/* Правки на главной */
 	//.main-content {display: none;}
 	//.main-text {padding: 0;}
-	.main-content .three-in-row-block-wrap {width: 60%!important;}
+	.main-content .three-in-row-block-wrap {width: 100%!important;}
 	.main-content .main-text {padding: 0!important;}
 	.main-content .main-text h1 {font-size: 28px!important;}
 	.main-content .main-text h2 {font-size: 26px!important;}
@@ -21,12 +21,25 @@
 	.main-content .main-text {padding: 20px 0!important;}
 }
 
-@media screen and (max-width: 1200px) {
-	.width-center-block {width: 960px;}
+@media screen and (max-width: 1400px) { // 1200px
+	.width-center-block {width: 760px;} //  960px
+	#main-menu .main-menu-center-block .logo-blue-gray {width: 260px;}
+	#main-menu .main-menu-center-block .logo-white {width: 260px;}
+	#main-menu .main-menu-center-block .logo {width: 260px;}
+	#main-menu .main-menu-center-block .menu ul li {padding-left: 16px;}
+	.menu ul li a {font-size: 13px!important;}
+	.rent-content-head {
+		//height: 670px;
+		.down_button {bottom: 60px;}
+	}
+	// Уменьшаем высоту шапки на страницах выбора БЦ
+	.bc-magnus-content-head {
+		//height: 670px;
+	}
 }
 
-@media screen and (max-width: 1000px) {
-	.width-center-block {width: 760px;}
+@media screen and (max-width: 1000px) { // 1000
+	.width-center-block {width: 560px;} // 760
 	#main-menu {
 		.main-menu-center-block {
 			padding: 10px 0;
@@ -50,11 +63,11 @@
 	#main .main-content {
 		padding-top: 100px!important;
 	}
-	/* текст на главной */
+	// текст на главной
 	.main-text {
 		h1,h2 {font-size: 26px;}
 	}
-	/* 3 блока в ряд */
+	// 3 блока в ряд
 	.three-in-row-block-wrap {
 		padding: 0;
 		.three-in-row-block {
@@ -69,8 +82,8 @@
 	.contacts-form-bid .contacts-bid-block textarea {margin-top: 5px;}
 }
 
-@media screen and (max-width: 800px) {
-	.width-center-block {width: 560px;}
+@media screen and (max-width: 800px) { // 800
+	.width-center-block {width: 560px;} // 560
 	#main .main-content {
 		padding-top: 120px!important;
 	}
@@ -110,7 +123,7 @@
 	}
 	// Уменьшаем высоту шапки на страницах выбора БЦ
 	.bc-magnus-content-head {
-		height: 630px;
+		//height: 630px;
 	}
 	// Прячем черточки в названии БЦ на страницах выбора БЦ и уменьшаем шрифты названия и номера
 	.head-text-centered {
@@ -123,7 +136,7 @@
 	// --
 	.down_button {bottom: 100px;}
 	//--
-	.rent-content-head {height: 600px;}
+	.rent-content-head {/*height: 600px;*/}
 	.rent-mail-block {
 		.button-2 {margin-right: 17px;}
 	}
@@ -143,14 +156,14 @@
 	.block-title-with-text {
 		h1 {font-size: 26px;}
 	}
-	.down_button {bottom: 30px;}
+	.down_button {bottom: 30px; display: none!important;}
 	// Прячем внутреннее меню на маленьких экранах
 	.bc-magnus-head-menu-wrap {
 		display: none;
 	}
 	// Уменьшаем высоту шапки на страницах выбора БЦ
 	.bc-magnus-content-head {
-		height: 500px;
+		//height: 500px;
 	}
 	// Прячем черточки в названии БЦ на страницах выбора БЦ и уменьшаем шрифты названия и номера
 	.head-text-centered {
