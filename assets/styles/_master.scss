@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6,a,p {
 		font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif;
 	}
 	strong {color: $color-transparent-3;}
-	blink {color: $font-color-2;}
+	blink {color: $color-13;}
 }
 
 h1 {font-size: 40px;}
@@ -71,7 +71,7 @@ visibility: hidden;
 			background-size: 100% 100%!important;
 		}
 		.menu {
-			font-family: "OpenSansBold",OpenSansBold,Arial,sans-serif!important;
+			font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif!important;
 			min-height: 45px; float: right;
 			ul {
 				display: table; padding: 0px 0 0 0; margin: 0;
@@ -173,7 +173,7 @@ visibility: hidden;
 	p {color: $font-color-8; font-size: 18px; max-width: 470px; margin: 0 auto;} 
 }
 .block-title-with-text-line-2 {
-		width: 80px; margin: 0 auto; border-bottom: 4px solid $color-2;
+		width: 80px; margin: 0 auto; border-bottom: 4px solid $color-13;
 		margin-top: 20px; margin-bottom: 20px;
 	}
 

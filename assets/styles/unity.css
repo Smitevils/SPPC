@@ -163,7 +163,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, a span, p span {
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, a strong, p strong {
   color: rgba(255, 255, 255, 0.3); }
 h1 blink, h2 blink, h3 blink, h4 blink, h5 blink, h6 blink, a blink, p blink {
-  color: #00A0E2; }
+  color: #00b3ef; }
 
 h1 {
   font-size: 40px; }
@@ -248,7 +248,7 @@ img {
       background: url(../img/svg/logo-blue-gray.svg) !important;
       background-size: 100% 100% !important; }
     #main-menu .main-menu-center-block .menu {
-      font-family: "OpenSansBold", OpenSansBold, Arial, sans-serif !important;
+      font-family: "OpenSansRegular", OpenSansRegular, Arial, sans-serif !important;
       min-height: 45px;
       float: right; }
       #main-menu .main-menu-center-block .menu ul {
@@ -808,16 +808,16 @@ object {
     #main .footer .footer-text-left {
       float: left; }
       #main .footer .footer-text-left p {
-        line-height: 37px;
-        font-family: "MyriadProRegular",MyriadProRegular,Arial,sans-serif; }
+        line-height: 22px;
+        font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif; }
     #main .footer .footer-text-right {
       float: right; }
       #main .footer .footer-text-right p {
         float: left;
         display: inline-block;
-        line-height: 73px;
+        line-height: 44px;
         padding-right: 20px;
-        font-family: "MyriadProRegular",MyriadProRegular,Arial,sans-serif; }
+        font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif; }
 
 .social {
   float: left; }
@@ -832,7 +832,8 @@ object {
   .social ul {
     display: inline-block;
     list-style: none;
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
   .social ul li {
     display: inline-block; }
   .social .icon-facebook {
@@ -911,8 +912,8 @@ object {
 
 .aboutus-main h1 {
   font-size: 40px; }
-.aboutus-main #aboutus .head-text-centered h1 {
-  font-family: "OpenSansRegular", OpenSansRegular, Arial, sans-serif !important;
+.aboutus-main .head-text-centered h1 {
+  font-family: "OpenSansLight", OpenSansLight, Arial, sans-serif !important;
   font-size: 40px !important; }
 .aboutus-main p {
   font-size: 18px;
@@ -949,7 +950,8 @@ object {
   padding: 30px 0px;
   overflow: hidden; }
   .owr-advantages h1 {
-    font-size: 40px; }
+    font-size: 40px;
+    font-family: "OpenSansLight", OpenSansLight, Arial, sans-serif !important; }
   .owr-advantages p {
     font-size: 18px;
     color: #212121;
@@ -996,7 +998,7 @@ object {
 .ourteam h1 {
   font-size: 40px;
   padding-top: 40px;
-  font-family: "OpenSansRegular", OpenSansRegular, Arial, sans-serif !important; }
+  font-family: "OpenSansLight", OpenSansLight, Arial, sans-serif !important; }
 
 .ourteam-container {
   width: 80%;
@@ -1023,7 +1025,8 @@ object {
   .ourclients-bg .ourclients {
     padding: 100px 0; }
     .ourclients-bg .ourclients h2 {
-      color: #fff; }
+      color: #fff;
+      font-family: "OpenSansLight", OpenSansLight, Arial, sans-serif !important; }
     .ourclients-bg .ourclients .block-title-with-text-line-2 {
       border-color: #fff; }
     .ourclients-bg .ourclients .client-logo {
@@ -1043,7 +1046,8 @@ object {
     font-family: "OpenSansSemiBold",OpenSansSemiBold,Arial,sans-serif; }
 
 .rent-free-office h1 {
-  padding-top: 60px; }
+  padding-top: 60px;
+  font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif; }
 
 .rent-number-block-wrap {
   background: url(../img/phone-block-bg.jpg) no-repeat center;
@@ -1057,9 +1061,13 @@ object {
   .rent-number-block .rent-number-block-text {
     z-index: 3;
     position: relative;
-    padding: 40px 70px 40px 70px;
+    padding: 40px 70px 60px 70px;
     display: inline-block;
     border: 8px solid rgba(255, 255, 255, 0.3); }
+    .rent-number-block .rent-number-block-text h1 {
+      padding: 5px 0 5px 0; }
+    .rent-number-block .rent-number-block-text p {
+      padding: 5px 0 5px 0; }
     .rent-number-block .rent-number-block-text .rent-number-block-line {
       border-bottom: 1px solid #fff;
       width: 36%;
@@ -1085,7 +1093,7 @@ object {
       font-size: 24px; }
     .rent-choise-block .rent-choise-block-img-head p {
       color: #03c0ff;
-      font-size: 14px;
+      font-size: 12px;
       -webkit-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
@@ -1125,11 +1133,17 @@ object {
   color: #727272;
   padding-bottom: 60px;
   text-align: center; }
+  .rent-mail-block h1 {
+    font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif; }
   .rent-mail-block .rent-mail-box {
     padding: 0 0px; }
   .rent-mail-block .input_wrap {
     padding: 0 40px 0 20px; }
   .rent-mail-block .button-2 {
+    float: right;
+    margin: 10px 0;
+    margin-right: 17px; }
+  .rent-mail-block .button-1 {
     float: right;
     margin: 10px 0;
     margin-right: 17px; }
@@ -1182,7 +1196,7 @@ object {
   text-align: center;
   padding: 15px 0%;
   position: relative;
-  border-right: 2px grey solid;
+  border-right: 2px #ebebeb solid;
   margin-left: -2px;
   padding-right: 0px; }
   .news-content-block-left .news-content-box-left p {
@@ -1200,7 +1214,7 @@ object {
   text-align: center;
   padding: 15px 0%;
   position: relative;
-  border-left: 2px grey solid;
+  border-left: 2px #ebebeb solid;
   margin-left: -2px;
   padding-left: 0px; }
   .news-content-block-left .news-content-box-right p {
@@ -1220,7 +1234,7 @@ object {
   text-align: center;
   padding: 15px 0%;
   position: relative;
-  border-left: 2px grey solid;
+  border-left: 2px #ebebeb solid;
   margin-left: -2px;
   padding-right: 0px; }
   .news-content-block-right .news-content-box-left p {
@@ -1238,7 +1252,7 @@ object {
   text-align: center;
   padding: 15px 0%;
   position: relative;
-  border-right: 2px grey solid;
+  border-right: 2px #ebebeb solid;
   margin-left: -2px;
   padding-left: 0px; }
   .news-content-block-right .news-content-box-right p {
@@ -1254,7 +1268,7 @@ object {
 .gray-dot {
   width: 20px;
   height: 20px;
-  background-color: gray;
+  background-color: #ebebeb;
   border: 1px solid gray;
   position: absolute;
   top: 15px;
@@ -1694,4 +1708,8 @@ footer {
   /********/
   .footer-content p {
     width: 100%;
-    text-align: center; } }
+    text-align: center; }
+
+  /************/
+  .aboutus-main .head-text-centered h1 {
+    font-size: 26px !important; } }

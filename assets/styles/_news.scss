@@ -17,13 +17,13 @@
 .news-content-block-left {
 	.news-content-box-left {
 		float: left; width: 50%; height: 100%; text-align: center; padding: 15px 0%; position: relative;
-		border-right: 2px grey solid; margin-left: -2px; padding-right: 0px;
+		border-right: 2px $color-12 solid; margin-left: -2px; padding-right: 0px;
 		p {text-align: right; padding: 0 30px;} h5 {text-align: right; padding: 0 30px;}
 		img {width: 80%; height: auto;}
 	}
 	.news-content-box-right {
 		float: right; width: 50%; text-align: center; padding: 15px 0%; position: relative;
-		border-left: 2px grey solid; margin-left: -2px; padding-left: 0px;
+		border-left: 2px $color-12 solid; margin-left: -2px; padding-left: 0px;
 		p {text-align: left; padding: 0 30px;} h5 {text-align: left; padding: 0 30px;}
 		img {width: 80%; height: auto;}
 	}
@@ -32,20 +32,20 @@
 .news-content-block-right {
 	.news-content-box-left {
 		float: right; width: 50%; height: 100%; text-align: center; padding: 15px 0%; position: relative;
-		border-left: 2px grey solid; margin-left: -2px; padding-right: 0px;
+		border-left: 2px $color-12 solid; margin-left: -2px; padding-right: 0px;
 		p {text-align: right; padding: 0 30px;} h5 {text-align: right; padding: 0 30px;}
 		img {width: 80%; height: auto;}
 	}
 	.news-content-box-right {
 		float: left; width: 50%; text-align: center; padding: 15px 0%; position: relative;
-		border-right: 2px grey solid; margin-left: -2px; padding-left: 0px;
+		border-right: 2px $color-12 solid; margin-left: -2px; padding-left: 0px;
 		p {text-align: right; padding: 0 30px;} h5 {text-align: right; padding: 0 30px;}
 		img {width: 80%; height: auto;}
 	}
 }
 
 .gray-dot {
-	width: 20px; height: 20px; background-color: gray;
+	width: 20px; height: 20px; background-color: $color-12;
 	border: 1px solid gray; position: absolute; top: 15px; right: 0;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;

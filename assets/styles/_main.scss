@@ -70,11 +70,11 @@
 		//position: absolute; bottom: 0;
 		.footer-text-left {
 			float: left;
-			p {line-height: 37px; font-family: "MyriadProRegular",MyriadProRegular,Arial,sans-serif;}
+			p {line-height: 22px; font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif;}
 		}
 		.footer-text-right {
 			float: right;
-			p {float: left; display: inline-block; line-height: 73px; padding-right: 20px;  font-family: "MyriadProRegular",MyriadProRegular,Arial,sans-serif;}
+			p {float: left; display: inline-block; line-height: 44px; padding-right: 20px;  font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif;}
 		}
 	}
 }
@@ -87,7 +87,7 @@
 		-o-transition: all 0.3s;
 		transition: all 0.3s;
 	}
-	ul {display: inline-block; list-style: none; padding: 0;}
+	ul {display: inline-block; list-style: none; padding: 0; margin: 0;}
 	ul li {display: inline-block;}
 	.icon-facebook {
 		background: url(../img/social-icons.png) no-repeat;

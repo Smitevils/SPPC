@@ -5,7 +5,7 @@
 }
 .aboutus-main {
 	h1 {font-size: 40px;}
-	#aboutus .head-text-centered h1 {font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif!important; font-size: 40px!important;}
+	.head-text-centered h1 {font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif!important; font-size: 40px!important;}
 	p {font-size: 18px; color: $font-color-8; padding: 10px 50px;}
 }
 
@@ -28,7 +28,7 @@
 
 .owr-advantages {
 	padding: 30px 0px;  overflow: hidden;
-	h1 {font-size: 40px;}
+	h1 {font-size: 40px; font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif!important;}
 	p {font-size: 18px; color: $font-color-8; padding: 10px 50px;}
 	//h2 {font-size: 40px;}
 }
@@ -51,7 +51,7 @@
 
 .ourteam {
 	p {color: $font-color-8; padding: 10px 60px; font-size: 18px;}
-	h1 {font-size: 40px; padding-top: 40px; font-family: "OpenSansRegular",OpenSansRegular,Arial,sans-serif!important;}
+	h1 {font-size: 40px; padding-top: 40px; font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif!important;}
 }
 
 .ourteam-container {width: 80%; padding: 0 10%; padding-bottom: 40px; padding-top: 40px;}
@@ -68,7 +68,7 @@
 	background: url(../img/ourclients-bg.jpg) no-repeat; background-size: cover; position: relative;
 	.ourclients {
 		padding: 100px 0;
-		h2 {color: $color-1;}
+		h2 {color: $color-1; font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif!important;}
 		.block-title-with-text-line-2 {border-color: $color-1;}
 		.client-logo {display: inline-block; margin: 10px 40px;}
 	}

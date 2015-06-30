@@ -8,7 +8,7 @@
 }
 
 .rent-free-office {
-	h1 {padding-top: 60px;}
+	h1 {padding-top: 60px; font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif;}
 }
 
 .rent-number-block-wrap {
@@ -18,7 +18,9 @@
 .rent-number-block {
 	padding: 70px 0; text-align: center;
 	.rent-number-block-text {
-		z-index: 3; position: relative; padding: 40px 70px 40px 70px; display: inline-block; border: 8px solid $color-transparent-3;
+		z-index: 3; position: relative; padding: 40px 70px 60px 70px; display: inline-block; border: 8px solid $color-transparent-3;
+		h1 {padding: 5px 0 5px 0;}
+		p {padding: 5px 0 5px 0;}
 		.rent-number-block-line {border-bottom: 1px solid $color-1; width: 36%; display: inline-block;}
 	}
 }
@@ -37,7 +39,7 @@
 		transition: all 0.3s;
 		h2 {font-size: 24px;}
 		p {
-			color: $font-color-12; font-size: 14px;
+			color: $font-color-12; font-size: 12px;
 			-webkit-transition: all 0.3s;
 			-o-transition: all 0.3s;
 			transition: all 0.3s;
@@ -66,11 +68,13 @@
 }
 
 .rent-mail-block {
+	h1 {font-family: "OpenSansLight",OpenSansLight,Arial,sans-serif;}
 	color: $color-5; padding-bottom: 60px;
 	.rent-mail-box {padding: 0 0px;}
 	text-align: center;
 	.input_wrap { padding: 0 40px 0 20px;}
 	.button-2 {float: right; margin: 10px 0; margin-right: 17px;}
+	.button-1 {float: right; margin: 10px 0; margin-right: 17px;}
 	input {
 		width: 100%; padding: 5px 10px; display: inline-block;
 		margin: 10px 0px; border: 2px solid $color-9; background: $color-3;
